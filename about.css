@@ -1,4 +1,3 @@
-
   body {
 	height: 700px;
 	background: url('background.jpg')  no-repeat center center fixed;
@@ -14,15 +13,12 @@ li {
 	font-size: 20px;
 	padding-right: 20px;
 	margin-top: 28px;
-	
-
 }
 
 a {
 	text-decoration: none;
 	color: hsl(0, 0%, 50%);
 	cursor: pointer;
-
 }
 
 a:hover {
@@ -36,8 +32,6 @@ a:hover {
 	margin: auto;
 	margin-top: 10%;
 	border-radius: 5px;
-	
-	
 }
 
 #aboutme {
@@ -46,7 +40,6 @@ a:hover {
 	color: white;
 	padding: 30px;
 	font-family: Helvetica, sans-serif;	
-
 }
 
 #twitter {
