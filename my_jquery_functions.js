@@ -1,6 +1,4 @@
 // my jQuery Functions
-<<<<<<< HEAD
-<<<<<<< HEAD
  $(document).ready(function(){
 		$("img").fadeIn(2500);
 		$("h1").fadeIn(2500);
@@ -27,7 +25,6 @@
 
 		$("a").removeClass("test");
 
-*/ 
 
 	
 
@@ -36,6 +33,8 @@
 			$(this).hide("fast");
 		});
 		
-		*/
+		
 
 	});
+
+*/ 
