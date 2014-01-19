@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+  body {
+	height: 700px;
+	background: url('background.jpg')  no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	padding-right: 20px;
+	margin-top: 28px;
+<<<<<<< HEAD
+	
+
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+}
+
+a {
+	text-decoration: none;
+	color: hsl(0, 0%, 50%);
+	cursor: pointer;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+}
+
+a:hover {
+	color: white;
+}
+
+#about {
+	height: 300px;
+	width: 600px;
+	background-color: hsla(0,100%,50%, 0.6);
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 5px;
+<<<<<<< HEAD
+	display: none;
+	
+	
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+}
+
+#aboutme {
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding: 30px;
+<<<<<<< HEAD
+	font-family: Helvetica, sans-serif;
+	display: none;	
+
+=======
+	font-family: Helvetica, sans-serif;	
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+}
+
+#twitter {
+text-align: center;
+margin-top: 10px;
+}
+

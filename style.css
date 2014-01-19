@@ -1,0 +1,72 @@
+ 
+body {
+	height: 700px;
+	background: url('background.jpg')  no-repeat center center fixed;
+	background-size: cover;
+	width: auto;
+}
+
+h1 {
+	font-size: 72px;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-shadow: -1px 1px black,-1px 1px black, -3px 1px black, -3px 1px black;
+	text-align: center;
+	margin-top: 100px;
+	position: relative;
+<<<<<<< HEAD
+	display: none;
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+
+}
+
+
+
+#me img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	left: 45%;
+	position: fixed;
+	z-index: 5;
+<<<<<<< HEAD
+	display: none;
+=======
+>>>>>>> 91fbbbbe707eebb7dff6590c7874336f71a586c9
+}
+
+
+
+}
+
+#nav {
+	list-style-type: none;
+}
+
+
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+li:hover 
+{
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: hsl(0, 0%, 50%);
+	cursor: pointer;
+
+}
+
+a:hover {
+	color: white;
+}
