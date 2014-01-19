@@ -13,11 +13,13 @@
 		$("a").addClass("test");
 
 		$("a").removeClass("test");
-	*/
+	
 
 		$("a").click(function(event) {
 			event.preventDefault();
 			$(this).hide("fast");
 		});
+		
+		*/
 
 	});
