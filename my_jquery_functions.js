@@ -1,7 +1,6 @@
 // my jQuery Functions
  $(document).ready(function(){
-		$("img").fadeIn(2500);
-		$("h1").fadeIn(2500);
+		$("img").fadeIn(4000);
 		$("#aboutme").fadeIn(2500);
 		$("#about").fadeIn(2500);
 
