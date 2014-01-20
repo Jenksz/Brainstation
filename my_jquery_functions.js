@@ -3,6 +3,10 @@
 		$("img").fadeIn(4000);
 		$("#aboutme").fadeIn(2500);
 		$("#about").fadeIn(2500);
+/**
+		$("button").click(function(){
+			$("img").animate({down:'100px'});
+		});  */
 
 });
 
