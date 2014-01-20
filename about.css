@@ -7,6 +7,10 @@
 	height: 700px;
 	/*background: url('background.jpg')  no-repeat center center fixed;*/
 	background: -webkit-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -webkit-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -o-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -ms-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -moz-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
 	background-size: cover;
 }
 

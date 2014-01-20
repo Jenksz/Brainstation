@@ -3,12 +3,17 @@ html {
 }
 body {
 	height: 700px;
-	/*background:   url('background.jpg')  no-repeat center center fixed; 
-	background: -webkit-radial-gradient(circle closest-side, blue, orange); 
-	background:	-moz-linear-gradient(black, white);
-	background:	-o-linear-gradient(black, white);
-	background:	-ms-linear-gradient(black, white); Prefixed vs unprefixed syntax */
+	/* 
+	Standard background cover image background:   url('background.jpg')  no-repeat center center fixed; 
+	Circular gradient cover image background: -webkit-radial-gradient(circle closest-side, blue, orange); 
+	Circular gradient cover image background:	-moz-linear-gradient(black, white);
+	Circular gradient cover image background::	-o-linear-gradient(black, white);
+	Circular gradient cover image background:	-ms-linear-gradient(black, white); Prefixed vs unprefixed syntax */
 	background: -webkit-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -webkit-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -o-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -ms-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
+	background: -moz-linear-gradient(hsl(200,51%,32%), transparent 75%), url('background.jpg');
 	background-size: cover;
 	width: auto;
 }
