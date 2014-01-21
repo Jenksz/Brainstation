@@ -29,6 +29,8 @@ a {
 	text-decoration: none;
 	color: slategray;
 	cursor: pointer;
+	display: inline-block;
+
 
 }
 
@@ -39,7 +41,6 @@ a:hover {
 #about {
 	height: 300px;
 	width: 600px;
-	background-color: hsla(0,100%,50%, 0.6);
 	margin: auto;
 	margin-top: 10%;
 	border-radius: 5px;
@@ -51,10 +52,6 @@ a:hover {
 	color: white;
 	padding: 30px;
 	font-family: Helvetica, sans-serif;
-	display: none;	
-	font-family: Helvetica, sans-serif;	
-	font-family: Helvetica, sans-serif;	
-	display: none;
 }
 
 #twitter {
@@ -65,4 +62,15 @@ margin-top: 10px;
 audio {
 	float: right;
 	display: none;
+}
+
+@-webkit-keyframes fadeIn
+{
+from { opacity: 0 }
+to { opacity: 1 }
+}
+
+.fadeIn 
+{
+-webkit-animation: fadeIn 5s;
 }
